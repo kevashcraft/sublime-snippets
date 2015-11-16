@@ -5,7 +5,7 @@ CREATE TABLE ${1:TableName}s (
 	${1:TableName}ID INT UNSIGNED AUT_INCREMENT,
 	${1:TableName}TS TIMESTAMP,
 	${2}
-	PRIMARY KEY ( ${1:TableName} )
+	PRIMARY KEY ( ${1:TableName}ID )
 ) ENGINE InnoDB;
 ]]></content>
 	<tabTrigger>ct</tabTrigger>
