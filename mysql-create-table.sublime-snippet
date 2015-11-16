@@ -2,7 +2,7 @@
 	<content><![CDATA[
 DROP TABLE IF EXISTS ${1:TableName}s;
 CREATE TABLE ${1:TableName}s (
-	${1:TableName}ID INT UNSIGNED AUT_INCREMENT,
+	${1:TableName}ID INT UNSIGNED AUTO_INCREMENT,
 	${1:TableName}TS TIMESTAMP,
 	${2}
 	PRIMARY KEY ( ${1:TableName}ID )
