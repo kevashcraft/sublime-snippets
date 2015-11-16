@@ -1,0 +1,21 @@
+<snippet>
+	<content><![CDATA[
+<dom-module id="${1:my-element}">
+	<template>
+	</template>
+</dom-module>
+<script>
+	Polymer({
+		is: '${1:my-element}',
+		properties: {
+
+		},
+	});
+</script>
+]]></content>
+	<tabTrigger>dm</tabTrigger>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>

@@ -1,0 +1,15 @@
+<snippet>
+	<content><![CDATA[
+${1:FunctionName}: function(${2:Arguments}) {
+
+	${3:LogicAndThings}
+},
+
+]]></content>
+	<tabTrigger>pf</tabTrigger>
+	<scope>source.js</scope>
+	<!-- Optional: Set a tabTrigger to define how to trigger the snippet -->
+	<!-- <tabTrigger>hello</tabTrigger> -->
+	<!-- Optional: Set a scope to limit where the snippet will trigger -->
+	<!-- <scope>source.python</scope> -->
+</snippet>
